@@ -1,0 +1,33 @@
+# Virtual environment
+backend/venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# IDE and editor configurations
+.idea/
+.vscode/
+
+# Build and distribution files
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python Egg and distribution files
+*.egg-info/
+*.egg
+
+# Metadata and package information
+backend/venv/Lib/site-packages/langchain-0.3.12.dist-info/
+backend/.env
+backend/embeddings
+
+
+frontend/node_modules
+
+# Other common ignored files
+.DS_Store

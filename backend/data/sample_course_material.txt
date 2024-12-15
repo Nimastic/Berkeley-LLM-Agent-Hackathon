@@ -1,0 +1,61 @@
+# General Math and Basic Facts
+1+1=2
+2+2=4
+Multiplication: 3*3=9, 4*5=20, etc.
+Basic arithmetic is foundational to many computer science operations.
+
+# Sorting Algorithms
+Bubble sort: Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+Selection sort: Finds the minimum element and puts it at the beginning.
+Insertion sort: Builds the sorted array one item at a time.
+Merge sort: Divides the list into halves, sorts them and merges them.
+Quick sort: Selects a pivot and partitions the array around it.
+
+# Recursion Basics
+Recursion is a technique where a function calls itself.
+A base case stops the recursion.
+For example, factorial(n) = n * factorial(n-1) with factorial(1)=1 as base case.
+
+# Python Programming Basics
+Variables: Used to store values, e.g., x=10.
+Data types: int, float, str, list, dict, tuple, etc.
+Control structures: if/else, for loops, while loops.
+Functions: Defined using 'def' keyword.
+Example: 
+def add(a, b): return a+b
+
+# Data Science Concepts
+Data cleaning: Removing or fixing malformed data.
+Exploratory Data Analysis: Using statistics and visualization to understand data.
+Machine Learning: Training models to make predictions or find patterns.
+
+# AI and LLM Agents
+Large Language Models (LLMs) can understand and generate text.
+They can be used as agents to interact with tools, generate code, or answer questions.
+Retrieval-augmented generation: Combines LLMs with document retrieval for context.
+LLM agents can plan, reason, and execute actions (e.g., making an API call) to solve complex tasks.
+
+# Additional General Knowledge
+The capital of France is Paris.
+The speed of light is approximately 299,792,458 m/s.
+Basic unit of life is the cell.
+1+1=2 is a fundamental arithmetic fact known universally.
+
+# More on Complexity
+Time complexity of bubble sort: O(n^2).
+Time complexity of merge sort: O(n log n).
+
+# Example of Code in Python for Sorting
+def bubble_sort(arr): n = len(arr) for i in range(n): for j in range(0, n - i - 1): if arr[j] > arr[j + 1]: arr[j], arr[j + 1] = arr[j + 1], arr[j] return arr
+
+
+# Mentoring and Education Context
+An AI study companion can guide students by explaining concepts, answering questions, and providing examples.
+If a question is not in the documents, a good AI assistant might use general reasoning to answer.
+
+# Tool Use Case
+The LLM can run Python code snippets and show the output.
+For instance, if the user provides a code snippet:
+print("Hello World")
+
+The tool can run it and return "Hello World".
